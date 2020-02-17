@@ -3,7 +3,8 @@ title: 신입 개발자 이성준 포트폴리오 입니다
 description: portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-
+url : "https://sujl950620.github.io"
+baseurl : ""
 # User settings
 username: Newcomer Developer 이성준입니다
 user_description: 안녕하세요!
@@ -12,7 +13,7 @@ email: sujl95@naver.com
 twitter_username: ""
 github_username:  sujl950620
 gplus_username:  ""
-remote_theme
+remote_theme : 
 # Google-analytics
 google-analytics:
   id: ""
