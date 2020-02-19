@@ -12,8 +12,7 @@ user_title: Web Developer
 email: sujl95@naver.com
 github_username:  sujl950620
 gplus_username:  ""
-remote_theme : nrandecker/particle
-theme: nrandecker/particle
+remote_theme : 
 # Google-analytics
 google-analytics:
   id: ""
