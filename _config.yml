@@ -10,9 +10,6 @@ user_title: Web Developer
 email: sujl95@naver.com
 github_username:  sujl950620
 gplus_username:  ""
-theme: minima
-plugins:
-  - jekyll-feed
 # Google-analytics
 google-analytics:
   id: ""
