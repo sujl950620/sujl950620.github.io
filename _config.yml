@@ -1,19 +1,21 @@
 # Site settings
-title: 신입 개발자 이성준 포트폴리오 입니다
+title: Lee Sung Jun PortFolio
 description: portfolio
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://sujl950620.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url : "localhost:4000"
-baseurl : ""
 # User settings
 username: Developer 이성준
-user_description: 안녕하십니까 신입 개발자 이성준입니다. 
+user_description:  
 user_title: Web Developer
 email: sujl95@naver.com
 github_username:  sujl950620
 gplus_username:  ""
-remote_theme : nrandecker/particle
+theme: minima
+plugins:
+  - jekyll-feed
 # Google-analytics
 google-analytics:
   id: ""
 exclude: ['package.json', 'src' , 'node_modules']
+host: 0.0.0.0
+port: 4000
