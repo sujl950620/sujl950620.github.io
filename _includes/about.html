@@ -1,25 +1,39 @@
  <div class="user-details">
   <h1> About Me </h1>
-  <div class="user">
-    <div class="person-img">
-      <img style="width:160px" src="/assets/img/LeesungJun.jpg">
-    </div>
-    <div class="About-txt">
-      <p> {{site.user_description}} </p>
-    </div>
+  <div class="user about_me">
+    
+      <img class="person_img" src="/assets/img/LeesungJun.jpg">
+      <!-- <ul> {{site.user_description}} </ul> -->
+      <ul class="person_info ">
+        <li class="name">이 성 준</li>
+        <li class="part">Web Developer [신입]</li>
+        <li>1995-06-20</li>
+        <li>경기도 김포시</li>
+        <li>010-9195-8354</li>
+        <li>{{site.email}}</li>
+        <li>Github : <a aria-label="My Github" target="_blank" href="https://github.com/sujl950620"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a></li>
+      </ul>
+      <ul class="person_info w45">
+        <li class="name part">Personality</li>
+        <li>- 밝고 활발한 성격으로 끊임없는 소통 </li>
+        <li>- 새로운 업무에 두려움이 없으며 적극적으로 배우는 자세</li>
+        <li>- 실패를 두려워하지 않는 끝없는 도전정신</li>
+      </ul>
+   
+    
   </div>
 </div>
 <div class="user-details">
-  <h1> Skill </h1>
+  <h1 id="Skill"> Skill </h1>
 </div>
   <div class="user">
     <div class="tech">
       <h2>Design</h2>
       <i class="devicon-html5-plain-wordmark"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
-      <i class="devicon-javascript-plain colored"></i>
       <i class="devicon-jquery-plain-wordmark colored"></i>
       <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-vuejs-plain-wordmark colored"></i>
       <p></p>
     </div>
     <div class="tech">
@@ -33,6 +47,7 @@
       <h2>Database</h2>
       <i class="devicon-oracle-plain"></i>
       <img class="w75h75" src="/assets/img/mssql.PNG">
+      <i class="devicon-mongodb-plain-wordmark"></i>
       <p></p>
     </div>
 </div>
@@ -42,6 +57,8 @@
     <i class="devicon-spring-plain"></i>
     <img class="w75h75" src="/assets/img/spring.png">
     <p></p>
+   <i class="devicon-nodejs-plain-wordmark"></i>
+   
   </div>
   <div class="tech">
     <h2>OS</h2>
